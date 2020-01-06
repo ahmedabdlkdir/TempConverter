@@ -1,0 +1,9 @@
+// formulas p
+// (32°F − 32) × 5/9 = 0°C
+// C = 1.8 / (f-32); correct
+// F = 32 + (1.8 * C) correct
+
+    // fValue.value = (32 + (cValue.value * 1.8)).toFixed(2);
+
+//     fValue.value = 32 + (cValue.value * 1.8);
+//     cValue.value = (fValue.value - 32) / 1.8;

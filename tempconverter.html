@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tempconverter.css">
+</head>
+<body>
+    <div class="convertercontainer">
+        <div class="converterheader">
+            <h2>Fahrenheit and Celcius Converter</h2>
+        </div>
+        <div class="converterbody">
+            <div class="fahrenheit">
+                <div class="ftext"><h4>Fahrenheit</h4></div>
+                <div class="finput">
+                    <input type="text" placeholder="Enter value" maxlength="7" id="finput" oninput="this.value = this.value.replace(/[^0-9.-]/g, '').replace(/(\..*)\./g, '$1');">
+                </div>
+            </div>
+            <div class="celcius">
+                <div class="ctext"><h4>Celcius</h4></div>
+                <div class="cinput">
+                    <input type="text" placeholder="Enter value" maxlength="7" id="cinput" oninput="this.value = this.value.replace(/[^0-9.-]/g, '').replace(/(\..*)\./g, '$1');">
+                </div>
+            </div>
+            <div class="kelvin">
+                <div class="ktext"><h4>Kelvin</h4></div>
+                <div class="kinput">
+                        <input type="text" placeholder="Enter value" maxlength="7" id="kinput" oninput="this.value = this.value.replace(/[^0-9.-]/g, '').replace(/(\..*)\./g, '$1');">
+                </div>
+            </div>
+            <div class="btnclearconvert">
+                <div class="btnclear"><button onclick="clearValues()">Clear</button></div>
+            </div>
+            
+        </div>
+
+
+
+
+
+        <!-- <div class="converterbody">
+            <div class="fahrenheit">
+                <div class="ftext"> <h4>Fahrenheit</h4</div>
+                <div class="finput"><input type="text" value="5222"></div>
+            </div>
+            <div class="celcius">
+                <div class="ctext"> <h4>Celcius</h4></div>
+                <div class="cinput"><input type="text" value="5222"></div>
+            </div>
+        </div> -->
+        
+    </div>
+    <script src="tempconverter.js"></script>
+</body>
+</html>
